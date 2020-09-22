@@ -1,0 +1,150 @@
+#include<stdlib.h>
+#include<stdio.h> 
+ int
+ {
+ FILE *f = fopen("tabla mensual.txt", "r");
+ if (f==NULL)
+{
+   perror ("Error al abrir fichero.txt");
+   return -1;
+}
+ main()
+ {
+ 	prinft("ingrese fecha:\n");
+ 	scanft("%d",&fecha);
+ 	prinft("ingrese numero de estacion\n");
+ 	scanft("%d",&estacion);
+ 	prinft("ingrese tipo de combustible\n");
+ 	scanft("%d",&tipocomb);
+ 	prinft("ingrese cantidad en litros\n");
+ 	scanft("%d",&cant);
+ 	totalporcarga=tipocomb*cant
+}
+if(estacion==5);
+{
+	if(tipocomb==5);
+	{
+		total1=cant*6100;
+	}
+	if(tipocomb==6);
+	{
+		total2=cant*5180;
+	}
+	if(tipocomb==7);
+	{
+		total3=cant*6690;
+	}
+	if(tipocomb==8);
+	{
+		total4=cant*5890];
+	}
+	if(tipocomb==9);
+	{
+		total5=cant*4950
+	}
+	totalestacion5=tota1+total2+total3+total4+total5
+	prinft("\ntotal de la estacion 5",totalestacion5)
+}
+if(estacion==6);
+{
+	if(tipocomb==5);
+	{
+		total1=cant*6100;
+	}
+	if(tipocomb==6);
+	{
+		total2=cant*5180;
+	}
+	if(tipocomb==7);
+	{
+		total3=cant*6690;
+	}
+	if(tipocomb==8);
+	{
+		total4=cant*5890];
+	}
+	if(tipocomb==9);
+	{
+		total5=cant*4950
+	}
+	totalestacion6=tota1+total2+total3+total4+total5
+	prinft("\ntotal de la estacion 6",totalestacion6)
+}
+if(estacion==7);
+{
+	if(tipocomb==5);
+	{
+		total1=cant*6100;
+	}
+	if(tipocomb==6);
+	{
+		total2=cant*5180;
+	}
+	if(tipocomb==7);
+	{
+		total3=cant*6690;
+	}
+	if(tipocomb==8);
+	{
+		total4=cant*5890];
+	}
+	if(tipocomb==9);
+	{
+		total5=cant*4950
+	}
+	totalestacion7=tota1+total2+total3+total4+total5;
+	prinft("\ntotal de la estacion 7",totalestacion7);
+	}
+}
+if(estacion==8);
+{
+	if(tipocomb==5);
+	{
+		total1=cant*6100;
+	}
+	if(tipocomb==6);
+	{
+		total2=cant*5180;
+	}
+	if(tipocomb==7);
+	{
+		total3=cant*6690;
+	}
+	if(tipocomb==8);
+	{
+		total4=cant*5890];
+	}
+	if(tipocomb==9);
+	{
+		total5=cant*4950
+	}
+	totalestacion8=tota1+total2+total3+total4+total5;
+	prinft("\ntotal de la estacion 8",totalestacion8)
+}
+if(estacion==9);
+{
+	if(tipocomb==5);
+	{
+		total1=cant*6100;
+	}
+	if(tipocomb==6);
+	{
+		total2=cant*5180;
+	}
+	if(tipocomb==7);
+	{
+		total3=cant*6690;
+	}
+	if(tipocomb==8);
+	{
+		total4=cant*5890];
+	}
+	if(tipocomb==9);
+	{
+		total5=cant*4950
+	}
+	totalestacion9=tota1+total2+total3+total4+total5;
+	prinft("\ntotal de la estacion 9",totalestacion9)
+}
+
+}
