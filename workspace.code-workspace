@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"path": "repo/prueba"
+		},
+		{
+			"path": "universidad_san_carlos_addons/derivacion_tickets"
+		}
+	],
+	"settings": {
+		"launch": {
+			"configurations": [
+				{
+					"name": "Odoo 14",
+					"type": "python",
+					"request": "launch",
+					"program": "/odoo/odoo14/odoo-server/odoo-bin",
+					"console": "integratedTerminal",
+					"args": [
+						"--config=/home/rick/Desktop/repo/conf/odoo14.conf"
+					]
+				}
+			]
+		}
+	}
+}
