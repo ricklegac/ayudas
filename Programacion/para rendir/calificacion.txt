@@ -1,0 +1,6 @@
+APELLIDO	NOMBRES	-	PUNTAJE	NOTA
+Seo , Diego - 90	4
+Carmen , Rolon - 50	1
+Ricardo , Leguizamon - 80	4
+Laura , Troche - 10	1
+Roberto , Arce - 62	2

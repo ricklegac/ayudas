@@ -1,0 +1,13 @@
+Bud 1
+Bud 3
+Patag	5
+Patag	3
+Sol	2
+Sol	3
+Coro	1
+Coro	1
+Bud	4
+Bud	5
+
+
+	

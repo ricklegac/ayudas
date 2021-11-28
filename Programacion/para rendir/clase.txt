@@ -1,0 +1,5 @@
+Seo	Diego	90
+Carmen	Rolon	50
+Ricardo	Leguizamon	80
+Laura	Troche	10
+Roberto	Arce	62	

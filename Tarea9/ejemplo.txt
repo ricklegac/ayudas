@@ -1,0 +1,300 @@
+2
+Francisco Quinonez
+10042021 0719 E
+8
+Carmen Ortiz
+10042021 0723 E
+5
+Enrique Garbini
+10042021 0743 E
+6
+Ana Benegas
+10042021 0749 E
+9
+Ariel Balbuena
+10042021 0805 E
+3
+Gabriel Espinola
+10042021 0806 E
+1
+Jose Colbes
+10042021 0853 E
+10
+Micaela Paez
+10042021 0926 E
+4
+Magali Rodriguez
+10042021 0935 E
+7
+Rodrigo Cuevas
+10042021 0938 E
+9
+Ariel Balbuena
+10042021 1402 S
+10
+Micaela Paez
+10042021 1424 S
+6
+Ana Benegas
+10042021 1427 S
+8
+Carmen Ortiz
+10042021 1433 S
+4
+Magali Rodriguez
+10042021 1519 S
+1
+Jose Colbes
+10042021 1526 S
+5
+Enrique Garbini
+10042021 1551 S
+3
+Gabriel Espinola
+10042021 1552 S
+7
+Rodrigo Cuevas
+10042021 1617 S
+2
+Francisco Quinonez
+10042021 1657 S
+5
+Enrique Garbini
+11042021 0708 E
+4
+Magali Rodriguez
+11042021 0809 E
+10
+Micaela Paez
+11042021 0811 E
+9
+Ariel Balbuena
+11042021 0837 E
+2
+Francisco Quinonez
+11042021 0840 E
+6
+Ana Benegas
+11042021 0848 E
+3
+Gabriel Espinola
+11042021 0927 E
+1
+Jose Colbes
+11042021 0933 E
+7
+Rodrigo Cuevas
+11042021 0945 E
+8
+Carmen Ortiz
+11042021 0948 E
+2
+Francisco Quinonez
+11042021 1453 S
+6
+Ana Benegas
+11042021 1501 S
+9
+Ariel Balbuena
+11042021 1510 S
+8
+Carmen Ortiz
+11042021 1522 S
+5
+Enrique Garbini
+11042021 1527 S
+10
+Micaela Paez
+11042021 1604 S
+4
+Magali Rodriguez
+11042021 1626 S
+1
+Jose Colbes
+11042021 1650 S
+7
+Rodrigo Cuevas
+11042021 1653 S
+3
+Gabriel Espinola
+11042021 1654 S
+4
+Magali Rodriguez
+12042021 0729 E
+9
+Ariel Balbuena
+12042021 0732 E
+2
+Francisco Quinonez
+12042021 0733 E
+5
+Enrique Garbini
+12042021 0821 E
+6
+Ana Benegas
+12042021 0839 E
+7
+Rodrigo Cuevas
+12042021 0842 E
+1
+Jose Colbes
+12042021 0929 E
+8
+Carmen Ortiz
+12042021 0931 E
+3
+Gabriel Espinola
+12042021 0937 E
+10
+Micaela Paez
+12042021 0949 E
+8
+Carmen Ortiz
+12042021 1412 S
+9
+Ariel Balbuena
+12042021 1415 S
+6
+Ana Benegas
+12042021 1456 S
+7
+Rodrigo Cuevas
+12042021 1509 S
+1
+Jose Colbes
+12042021 1510 S
+10
+Micaela Paez
+12042021 1539 S
+5
+Enrique Garbini
+12042021 1615 S
+2
+Francisco Quinonez
+12042021 1640 S
+3
+Gabriel Espinola
+12042021 1650 S
+4
+Magali Rodriguez
+12042021 1650 S
+3
+Gabriel Espinola
+13042021 0708 E
+5
+Enrique Garbini
+13042021 0726 E
+6
+Ana Benegas
+13042021 0735 E
+4
+Magali Rodriguez
+13042021 0827 E
+9
+Ariel Balbuena
+13042021 0836 E
+7
+Rodrigo Cuevas
+13042021 0919 E
+8
+Carmen Ortiz
+13042021 0923 E
+10
+Micaela Paez
+13042021 0938 E
+2
+Francisco Quinonez
+13042021 0946 E
+1
+Jose Colbes
+13042021 0949 E
+6
+Ana Benegas
+13042021 1402 S
+7
+Rodrigo Cuevas
+13042021 1439 S
+2
+Francisco Quinonez
+13042021 1443 S
+9
+Ariel Balbuena
+13042021 1455 S
+3
+Gabriel Espinola
+13042021 1456 S
+10
+Micaela Paez
+13042021 1505 S
+8
+Carmen Ortiz
+13042021 1515 S
+1
+Jose Colbes
+13042021 1528 S
+4
+Magali Rodriguez
+13042021 1555 S
+5
+Enrique Garbini
+13042021 1623 S
+7
+Rodrigo Cuevas
+14042021 0704 E
+2
+Francisco Quinonez
+14042021 0715 E
+3
+Gabriel Espinola
+14042021 0759 E
+10
+Micaela Paez
+14042021 0852 E
+8
+Carmen Ortiz
+14042021 0857 E
+9
+Ariel Balbuena
+14042021 0903 E
+5
+Enrique Garbini
+14042021 0909 E
+1
+Jose Colbes
+14042021 0936 E
+6
+Ana Benegas
+14042021 0950 E
+4
+Magali Rodriguez
+14042021 0951 E
+3
+Gabriel Espinola
+14042021 1414 S
+7
+Rodrigo Cuevas
+14042021 1432 S
+2
+Francisco Quinonez
+14042021 1508 S
+4
+Magali Rodriguez
+14042021 1509 S
+5
+Enrique Garbini
+14042021 1510 S
+8
+Carmen Ortiz
+14042021 1511 S
+6
+Ana Benegas
+14042021 1512 S
+9
+Ariel Balbuena
+14042021 1521 S
+1
+Jose Colbes
+14042021 1535 S
+10
+Micaela Paez
+14042021 1552 S

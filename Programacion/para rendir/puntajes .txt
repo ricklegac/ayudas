@@ -1,0 +1,6 @@
+333,diaz,juan,75,80,90
+111,solis,luis,60,60,80
+222,alvez,ana,95,90,95
+555,perez,juanito,80,90,100
+88,gonzalez,maria,100,90,100
+777,moreno, mario,90,100,100

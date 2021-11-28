@@ -1,0 +1,4 @@
+
+
+Cantidad de veces que se llego a la meta: 24
+La probabilidad de llegar a la meta es: 0.24

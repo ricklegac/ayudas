@@ -1,0 +1,16 @@
+
+Hay 6alumnosa)Planilla de Calificaciones
+CI		Apeliidos y Nombres	P1	P2	EF	P.Total	Nota
+..		...................	..	..	..	.......	....
+222		alvez,ana		95	90	95	94	5
+333		diaz,juan		75	80	90	85	4
+88		gonzalez,maria		100	90	100	98	5
+777		moreno, mario		90	100	100	98	5
+555		perez,juanito		80	90	100	94	5
+111		solis,luis		60	60	80	72	3
+
+b) Promedio				83.3333	85	94.1667	90.1667	4.5
+
+c) Mejor alumno:
+	gonzalez,maria
+	moreno, mario
