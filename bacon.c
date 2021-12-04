@@ -6,7 +6,8 @@ int main(){
 	file=fopen("bacon.txt", "r");
 	char unalinea[250];
 	while(!feof(file)){
-		
+		fgets(unalinea, 250, file);
+		puts(unalinea);
 	}
 
 	return 0;
