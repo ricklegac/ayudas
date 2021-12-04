@@ -9,6 +9,7 @@ int main(){
 		fgets(unalinea, 250, file);
 		puts(unalinea);
 	}
-
+	fclose(file);
+	//as
 	return 0;
 }
