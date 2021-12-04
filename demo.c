@@ -55,6 +55,6 @@ void create(){
 			scanf("%d", s[i].sub[j].mark);
 			s[i].total+= s[i].sub[j].mark;
 		}
-
+		s[i].per = s[i].total / 3.0; 
 	}
 }
