@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <String.h>
+#include <string.h>
 
 typedef struct Productos{
     char departamento [2] , nroArticulo [10];
@@ -13,32 +13,34 @@ void impresionFinal(int total_seccion , int total_departamento); //Funcion que s
 
 int main(){
     
-    FILE * archivo = fopen("lista.txt","r");	//se abre el archivo llamdo "lista.txt"
+    FILE * archivo = fopen("archivo.txt","r");	//se abre el archivo llamdo "lista.txt"
 	if( archivo == NULL ){				// Si no existe el archivo, lanzamos un error
 		perror("El archivo no existe");
 		return 1;
 	}
-
-    Articulo articulos [100];          //creacion de la lista que tendra los articulos
-    int i=0 , total_seccion = 0;           //iterador y una variable para cargar valores
-    int total_departamento = 0;            //variable que carga valores de departamentos
-    int articulo_mayor=0;         //Variables contadoras
-
-    while( !feof(archivo) ){ //si todavia no es el final del archivo, se lee
+    /*
+        LECTURA Y ALGUNAS DECLARACIONES FUNDAMENTALES DEL CODIGO 
+    */
+    Articulo articulos [100];          
+    int i=0 , total_seccion = 0;           
+    int total_departamento = 0;            
+    int articulo_mayor=0;         
+    while( !feof(archivo) ){ 
         fflush(stdin);
         fscanf(archivo,"%s%d%s%d",articulos[i].departamento,&articulos[i].seccion,articulos[i].nroArticulo,&articulos[i].cantidad);
         i++;
     }
-
     int seccion_temporal = articulos[0].seccion;       
     char departamento_actual [2], articuloMayor [10];
 
     printf("Dpto.\tSeccion\t\tNo.Art.\t\tCantidad\n");
-    //Inicializamos las variables
     strcpy(articuloMayor,articulos[0].nroArticulo);         
     strcpy(departamento_actual,articulos[0].departamento);     
     articulo_mayor = articulos[0].cantidad;
 
+    /*
+        CICLO PARA VERIFICAR CAMBIO DE DEPARTAMENTO Y SECCION ! 
+    */
     int k;
     for(k=0 ; k<i ; k++){
 
@@ -55,8 +57,13 @@ int main(){
         printf("%s\t%d\t\t%s\t\t%d\n",articulos[k].departamento,articulos[k].seccion,articulos[k].nroArticulo,articulos[k].cantidad);
         total_seccion += articulos[k].cantidad;
         total_departamento += articulos[k].cantidad;
+        /*
+            USAMOS MENOR O IGUAL PARA PODER DEFINIR EL ULTIMO VALOR MAYOR QUE SE ENCUENTRA EN LA LISTA.TXT DE CANTIDAD
+            DE PRODUCTO 
 
-        if( articulo_mayor < articulos[k].cantidad ){        //Buscamos el articulo con mas existencias
+            
+        */
+        if( articulo_mayor <= articulos[k].cantidad ){        
             articulo_mayor = articulos[k].cantidad;
             strcpy(articuloMayor,articulos[k].nroArticulo);
         }
@@ -70,11 +77,12 @@ int main(){
 }
 
 void promedioDepartamento(Articulo * articulos , int longitud){
-    char departamento_actual [2];                   //Variable que controla el departamento actual
+    char departamento_actual [2];  
+    int i;                 //Variable que controla el departamento actual
     strcpy(departamento_actual,articulos[0].departamento);
     int promedio=0, articulos_cantidad=0;          //Variables almacenadoras
     printf("\nPromedio de articulos por departamentos\n");
-    for(int i=0 ; i<longitud ; i++){
+    for( i=0 ; i<longitud ; i++){
         if( strcmp(departamento_actual,articulos[i].departamento) != 0 ){  //Si se pasa a una nueva seccion, se realizan acciones
             printf("\t%s\t%d\n",departamento_actual,promedio/articulos_cantidad);
             strcpy(departamento_actual,articulos[i].departamento);
@@ -85,7 +93,7 @@ void promedioDepartamento(Articulo * articulos , int longitud){
         }
         articulos_cantidad++;
     }
-    printf("\t%s\t%d",departamento_actual,promedio/articulos_cantidad);
+    printf("\t%s\t%d\n",departamento_actual,promedio/articulos_cantidad);
 }
 
 
