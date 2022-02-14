@@ -6,6 +6,6 @@ int main(){
 	int ivatotal= n * 0.1;
 	int iva_retenido = ivatotal * 0.35;
 	int iva = ivatotal - iva_retenido;
-	printf("\nSALARIO BRUTO: %d\nIVA: %d\n IVA Retenido: %d\n SALARIO NETO: %d\n", n, iva, iva_retenido, n-ivatotal);
+	printf("\nSALARIO BRUTO: %d\nIVA: %d\nIVA Retenido: %d\nSALARIO NETO: %d\n", n, iva, iva_retenido, n-ivatotal);
 	return 0;
 }
