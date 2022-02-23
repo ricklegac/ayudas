@@ -12,4 +12,22 @@ int main(){
 	printf("decena: %d\n", decena );
 	printf("unidad: %d\n", unidad );
 	return 0;
+	char cad_num[30]="";
+	switch (decena){
+		case 1:
+			cad_num = "diez y ";
+			break;
+		case 2:
+			cad_num = "veinti";
+			break;
+		case 3:
+			cad_num = "treinta y ";
+			break;
+		case 4:
+			cad_num= "cuarenta y";
+			break;
+
+
+	printf("%s", cad_num);
+	}
 }
