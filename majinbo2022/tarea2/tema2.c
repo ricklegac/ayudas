@@ -7,6 +7,7 @@ int main(){
 		printf("numero no valido, vuelva a ingresar: ");
 		scanf("%d",n);
 	}
-
+	decena = n % 10;
+	printf("decena: %d", decena );
 	return 0;
 }
