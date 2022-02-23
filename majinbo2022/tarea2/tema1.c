@@ -19,6 +19,7 @@ int main(){
 	printf("----------------------------------------\n");
 	printf("p/ equipo de computo: 5000\n");
 	printf("p/ equipo mobiliario: 2000\n");
+	n = n-7000;
 	printf("p/ compras de insumos: %2.f\n",n/2);
 	printf("p/ otorgar incentivos al personal: %2.f\n", n/2);
 	printf("----------------------------------------\n");
