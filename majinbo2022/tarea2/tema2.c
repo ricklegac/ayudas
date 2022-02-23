@@ -10,8 +10,8 @@ int main(){
 	}
 	int decena = n / 10;
 	int unidad = n % 10;
-	printf("decena: %d\n", decena );
-	printf("unidad: %d\n", unidad );
+	//printf("decena: %d\n", decena );
+	//printf("unidad: %d\n", unidad );
 	char cad_num[30]="";
 	if(n ==10 || n==11 | n==12 || n==13 || n==14 || n==15){
 		switch(n){
@@ -44,25 +44,25 @@ int main(){
 				strcat(cad_num, "veinti");
 				break;
 			case 3:
-				strcat(cad_num, "treinta y");
+				strcat(cad_num, "treinta y ");
 				break;
 			case 4:
-				strcat(cad_num, "cuarenta y");
+				strcat(cad_num, "cuarenta y ");
 				break;
 			case 5:
-				strcat(cad_num, "cincuenta y");
+				strcat(cad_num, "cincuenta y ");
 				break;
 			case 6:
-				strcat(cad_num, "sesenta y");
+				strcat(cad_num, "sesenta y ");
 				break;
 			case 7:
-				strcat(cad_num, "setenta y");
+				strcat(cad_num, "setenta y ");
 				break;
 			case 8:
-				strcat(cad_num, "ochenta y");
+				strcat(cad_num, "ochenta y ");
 				break;
 			case 9:
-				strcat(cad_num, "noventa y");
+				strcat(cad_num, "noventa y ");
 				break;
 			}
 		switch(unidad){
@@ -97,6 +97,6 @@ int main(){
 	}
 	printf("\n-------------------------------");
 	printf("\n%s\n", cad_num);
-	printf("-------------------------------");
+	printf("-------------------------------\n");
 	return 0;
 }
