@@ -13,7 +13,30 @@ int main(){
 	printf("decena: %d\n", decena );
 	printf("unidad: %d\n", unidad );
 	char cad_num[30]="";
-	switch (decena){
+	if(n ==10 || n==11 | n==12 || n==13 || n==14 || n==15){
+		switch(n){
+			case 10: 
+				strcat(cad_num,"diez");
+				break;
+			case 11: 
+				strcat(cad_num,"once");
+				break;
+			case 12: 
+				strcat(cad_num,"doce");
+				break;
+			case 13: 
+				strcat(cad_num,"trece");
+				break;
+			case 14: 
+				strcat(cad_num,"catorce");
+				break;
+			case 15: 
+				strcat(cad_num,"quince");
+				break;
+
+		}
+	}else{
+		switch (decena){
 		case 1:
 			strcat(cad_num, "dieci");
 			break;
@@ -26,7 +49,24 @@ int main(){
 		case 4:
 			strcat(cad_num, "cuarenta y");
 			break;
+		case 5:
+			strcat(cad_num, "cuarenta y");
+			break;
+		case 6:
+			strcat(cad_num, "cuarenta y");
+			break;
+		case 7:
+			strcat(cad_num, "cuarenta y");
+			break;
+		case 8:
+			strcat(cad_num, "cuarenta y");
+			break;
+		case 9:
+			strcat(cad_num, "cuarenta y");
+			break;
 	}
+	}
+	
 	printf("%s", cad_num);
 	return 0;
 }
