@@ -2,7 +2,7 @@
 #include<math.h>
 int main(){
 	int n;
-	printf("ingrese la cantidad de segundos: ");
+	printf("ingrese la cantidad de segundos: xd");
 	scanf("%d",&n);
 	int hora =  floor(n / 3600);
 	int segundos_restantes = n % 3600;
