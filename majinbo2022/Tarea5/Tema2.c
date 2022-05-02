@@ -9,33 +9,50 @@ int main(){
     int vec[15];
     for(i=0;i<5;i++){
         for(j=0;j<3;j++){
-            printf("%d",matriz[i][j]);
+            //printf("%d",matriz[i][j]);
             vec[x]=matriz[i][j];
             x++;
         }
+        //printf("\n");
+    }
+    ordenar_vector(vec,15);
+    x=0;
+    for (i=0;i<5;i++){
+        for(j=0;j<3;j++){
+            matriz[i][j]=vec[x];
+            x++;
+        }
+    }
+
+    /*TODO LO DE ARRIBA PODES COPIAR A7 */
+     for (i=0;i<5;i++){
+        for(j=0;j<3;j++){
+            printf("%d ",matriz[i][j]);
+        }
         printf("\n");
     }
-    /*for(i=0;i<15;i++){
-        printf("%d",vec[i]);
-    }
-    printf("\n");*/
-    ordenar_vector(vec,15);
-    /*for(i=0;i<15;i++){
-        printf("%d",vec[i]);
-    }*/
-    for(i=0;i<5;i++){
-        if(i%2==0){
-            for(j=0;j<3;j++){
-                
+    printf("\n"); 
+    
+    x=0;
+    for(i=0;i<5;i=i+2){
+        for(j=3;j>=0;j--){
+            if(i%2!=0){
+                matriz[i][x]=matriz[i][j];
             }
-        }else{
-            for(j=3;j>=0;j--){
-                
-            }
+            x++;
         }
-
-        
+        x=0;
     }
+    
+
+     /*este ya esta la matriz ordenada: */
+    for (i=0;i<5;i++){
+        for(j=0;j<3;j++){
+            printf("%d ",matriz[i][j]);
+        }
+        printf("\n");
+    }
+
     return 0;
 }
 void ordenar_vector(int vec[], int n){
