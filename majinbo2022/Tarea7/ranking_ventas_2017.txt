@@ -1,0 +1,5 @@
+1   gorritos    24564   pijama  18547
+2   chaqueta    20478   medias  17524
+3   pijama  15874   guantes 15748
+4   medias  14000   chaqueta    14000
+5   guantes 13000   gorritos    12000
