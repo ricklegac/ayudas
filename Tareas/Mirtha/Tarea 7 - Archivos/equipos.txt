@@ -1,0 +1,4 @@
+CMP-003	100000	5
+xxxxxxxxx	99999999	99
+totales	99999999	54    
+asd	0	0

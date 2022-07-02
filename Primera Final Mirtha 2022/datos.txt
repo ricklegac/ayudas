@@ -1,0 +1,7 @@
+2022	C1	Bolígrafo	50	1.000	60
+2022	C2	Resma	30	120.000	18
+2023	V2	Carpetas	10	1.500	67
+2023	V3	Pinceles	10	13.000	18
+2023	V4	Cuadernos	20	26.000	78
+2024	V6	Libros	30	13.000	18
+2025	V7	Resma	20	0	40
