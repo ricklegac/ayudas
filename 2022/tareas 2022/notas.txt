@@ -1,0 +1,4 @@
+ricardo:leg:50
+arturo:examen:70
+pruebas:l:25
+pruebanombre:pruebaapellido:95

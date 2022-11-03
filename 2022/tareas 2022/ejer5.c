@@ -23,8 +23,8 @@ int main(){
 	while(n>100){
 		printf("n tiene que ser como maximo 100 vuelve a ingresar \n");
 		scanf("%d",&n);
-	}
-	printf("ingrese los elementos del vector: \n");
+	
+}	printf("ingrese los elementos del vector: \n");
 	int vec[n];
 	for(i=0;i<n;i++) {
 		scanf("%d", &vec[i]);

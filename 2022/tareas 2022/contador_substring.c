@@ -5,11 +5,10 @@
 int main()
 {
     char cadena[100], subcadena[100];
-    printf("ingrese una palabra: ");
     fflush(stdin);
-    printf("ingrese una cadena inicial: "); // %[^\n]s es para aceptar todos los caracteres excepto el salto de linea 
-    scanf("%[^\n]s", cadena);
     scanf("%[^\n]s",subcadena);
+    fflush(stdin);
+    scanf("%[^\n]s", cadena);
     int M = strlen(subcadena);
     int N = strlen(cadena);
     int res = 0;

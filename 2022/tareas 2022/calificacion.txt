@@ -1,0 +1,6 @@
+ricardo, leg			50	1
+arturo, examen			70	3
+pruebas, l			25	1
+pruebanombre, pruebaapellido			95	5
+Cantidad de aprobados 2
+Mayor nota: 95 Alumno con mejor puntaje pruebaapellido pruebanombre calificacion: 5
